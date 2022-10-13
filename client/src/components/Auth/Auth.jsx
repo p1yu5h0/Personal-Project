@@ -132,26 +132,26 @@ const Auth = () => {
           >
             {isSignup ? "Sign Up" : "Sign In"}
           </Button>
-          <GoogleLogin
-            clientId="1016365164936-eaumk4k8kdghjlu7dfkvi32ots5lb26i.apps.googleusercontent.com"
-            render={(renderProps) => (
-              <Button
-              className={classes.googleButton}
-                onClick={renderProps.onClick}
-                disabled={renderProps.disabled}
-                variant="contained"
-                fullWidth
+//           <GoogleLogin
+//             clientId="1016365164936-eaumk4k8kdghjlu7dfkvi32ots5lb26i.apps.googleusercontent.com"
+//             render={(renderProps) => (
+//               <Button
+//               className={classes.googleButton}
+//                 onClick={renderProps.onClick}
+//                 disabled={renderProps.disabled}
+//                 variant="contained"
+//                 fullWidth
       
-                color='primary'
+//                 color='primary'
                 
-              >
-                Google Signin
-              </Button>
-            )}
-            onSuccess={googleSuccess}
-            onFailure={googleFailure}
-            cookiePolicy={"single_host_origin"}
-          />
+//               >
+//                 Google Signin
+//               </Button>
+//             )}
+//             onSuccess={googleSuccess}
+//             onFailure={googleFailure}
+//             cookiePolicy={"single_host_origin"}
+//           />
           
           <Grid container justifyContent="flex-end">
             <Grid item>
